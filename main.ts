@@ -15,7 +15,7 @@ let max_id = 0
 let id = 0
 radio.setGroup(99)
 id = 1
-max_id = 25
+max_id = 3
 basic.forever(function () {
     radio.sendString(convertToText(id))
 })
